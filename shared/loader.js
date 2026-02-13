@@ -39,7 +39,7 @@ console.log = function (...args) {
   { addr: "https://gn-math.github.io", name: "§c§lGN-MATH.GITHUB.IO" },
   { addr: "wss://play.monacoeducation.info", name: "Dylanmc Lifesteal Anarchy+Skyblock+Bedwars" },
   { addr: "wss://example.com", name: "§m------PARTNERS-------"},
-  { addr: "wss://powerschool.riversideacademy.site", name: "Complexity Network" },
+  { addr: "wss://xenamc.com", name: "XenaMC" },
   { addr: "wss:/eagler.velara.cc", name: "VelaraCraft" },		
   { addr: "wss://prysm.lol", name: "Prysm"},
   { addr: "wss://example.com", name: "§m------OTHERS-------"},
