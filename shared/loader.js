@@ -25,8 +25,8 @@
 const oglog = console.log;
 
 console.log = function (...args) {
-  if (args.length > 0 && args[0].includes('Connecting to: wss://https://gn-math.github.io')) {
-	  window.open("https://gn-math.github.io", "_blank");
+  if (args.length > 0 && args[0].includes('Connecting to: wss://https://marty-games.github.io')) {
+	  window.open("https://marty-games.github.io", "_blank");
   }
   oglog.apply(console, args);
 };
@@ -36,14 +36,16 @@ console.log = function (...args) {
           enumerable: true,
           set(value) {
             value.servers = [
-  { addr: "https://gn-math.github.io", name: "§c§lGN-MATH.GITHUB.IO" },
+  { addr: "https://marty-games.github.io", name: "§c§lMARTY-GAMES.GITHUB.IO" },
+  { addr: "wss://example.com", name: "§mSUBSCRIBE TO MMC GAMING"},
   { addr: "wss://xenamc.com", name: "XenaMC" },
-  { addr: "wss://example.com", name: "§m------PARTNERS-------"},
+  { addr: "wss://mc.nullsworld.net", name: "null's World" },
   { addr: "wss://play.monacoeducation.info", name: "Dylanmc Lifesteal Anarchy+Skyblock+Bedwars" },
   { addr: "wss:/eagler.velara.cc", name: "VelaraCraft" },		
   { addr: "wss://prysm.lol", name: "Prysm"},
-  { addr: "wss://example.com", name: "§m------OTHERS-------"},
   { addr: "wss://arch.mc", name: "ArchMC" },
+  { addr: "wss://tuff.ws", name: "TuffNET" },
+  { addr: "wss://play.heartsmp.net", name: "Lifesteal & Creative & Anarchy" },
   { addr: "wss://tuff.tf", name: "TuffNET" },
   { addr: "wss://clever-teaching.com", name: "Clever Teaching" },
   { addr: "wss://adderall.ir", name: "AdderallMC" },
