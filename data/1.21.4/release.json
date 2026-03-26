@@ -1,5 +1,0 @@
-{
-  "latestTag": "v0.1.88",
-  "changelog": "\n\n## [vv0.1.88](releases/tag/vv0.1.88) - 2025-05-19\n<!-- bump-type:patch -->\n### New Features\n\n- **ui**: display persistent capture mouse indicator instead of notification [`517f5d3`](/commit/517f5d35018f9f7fc54bc5d484ec5a83f885bae5)\n- Credits modal ([#354](/issues/354))\n### Bug Fixes\n\n- fix lever interaction shape [`7f6fc00`](/commit/7f6fc00f02b47caececaea81756d65971a936370)\n- was not possible to open blast furnace GUI [`f5835f5`](/commit/f5835f54facbb7b20721038f1bede72acb5df7ef)\n- fix crafting on 1.16.5 and below [`67d365b`](/commit/67d365b9c3a4b67b29575d1247247b2b22402065)\n- **regression**: hotbar on mobile was broken [`a5d16a7`](/commit/a5d16a75ef1727164568627e5632b9593d2c714e)\n- restore minimal and full map ([#348](/issues/348))\nCo-authored-by: gguio <nikvish150@gmail.com> [`785ab49`](/commit/785ab490f2fe76bcdd760dac046baa014c09b529)\n- fix sneaking didnt work with water [`a9b94ec`](/commit/a9b94ec897607b66491a8c2a40be41c761340209)\n- button shown even when cursor is not over the entity (e.g., a video) [`0a61bbb`](/commit/0a61bbba757c47c62f2b4d82ef54aaa213cdfc13)",
-  "previousTag": "v0.1.87"
-}
