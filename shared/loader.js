@@ -25,7 +25,7 @@
 const oglog = console.log;
 
 console.log = function (...args) {
-  if (args.length > 0 && args[0].includes('Connecting to: wss://https://marty-games.github.io')) {
+  if (args.length > 0 && args[0].includes('Connecting to: wss://marty-games.github.io')) {
 	  window.open("https://marty-games.github.io", "_blank");
   }
   oglog.apply(console, args);
@@ -36,7 +36,7 @@ console.log = function (...args) {
           enumerable: true,
           set(value) {
             value.servers = [
-  { addr: "https://marty-games.github.io", name: "§c§lMARTY-GAMES.GITHUB.IO" },
+  { addr: "wss://marty-games.github.io", name: "§c§lMARTY-GAMES.GITHUB.IO" },
   { addr: "wss://example.com", name: "§mSUBSCRIBE TO MMC GAMING"},
   { addr: "wss://xenamc.com", name: "XenaMC" },
   { addr: "wss://mc.nullsworld.net", name: "null's World" },
