@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html style="width:100%;height:100%;background-color:black;">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Eaglercraft 1.8.8</title>
-
-    <script type="text/javascript">
-        window.disableUserscripts = true;
-        window.__eaglercraftLoaderClient = {
-            container: "game_frame",
-            name: "Eaglercraft 1.8.8",
-            file: "net.lax1dude.eaglercraft.v1_8.client",
-            cid: "bafybeigvjbotqwm5mdjkvfqwxylpvap35lmya4d3jo6sn76pqzm2gub52i",
-            path: "",
-            download: "https://cdn.jsdelivr.net/gh/martinmmcyt/minecraft@main/1.8.8/1.8.8.gz",
-            dlSize: 14027305,
-            gzip: true
-        };
-    </script>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/martinmmcyt/minecraft@main/shared/loader.js"></script>
-    <link type="image/png" rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/martinmmcyt/minecraft@main/shared/game.png" />
+  <meta charset="utf-8">
+  <title>Minecraft 1.8.8</title>
 </head>
+<body>
+  <script>
+    async function loadAndRun() {
+      const urls = [
+        "https://gcore.jsdelivr.net/gh/MartinMMCyt/minecraft@main/1.8.8/EaglercraftX_1.8_u53_Offline_Signed.html"
 
-<body style="margin:0px;width:100%;height:100%;overflow:hidden;background-color:white;">
-    <div id="game_frame" style="width:100%;height:100%;"></div>
+      ];
+      let fullHtml = "";
+      for (const u of urls) {
+        const res = await fetch(u);
+        fullHtml += await res.text();
+      }
+
+      document.open();
+      document.write(fullHtml);
+      document.close();
+    }
+
+    loadAndRun();
+  </script>
 </body>
-
 </html>
